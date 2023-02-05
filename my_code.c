@@ -15,12 +15,15 @@ printf("search:");
 
 for(i=0;i<n;i++){
 if (a[i]==key){
-printf("found");
+printf("found\n");
        break;
 }
 }
 if (i==n){
     printf("not found");
+}
+if(i<n){
+    printf("index number:%d",i );
 }
 return 0;
 }
